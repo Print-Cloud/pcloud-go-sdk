@@ -24,7 +24,7 @@ func main() {
 	client := sdk.NewClient(APIUrl,Key)
 	// Necessary steps:
 	// Instantiate a request object by passing in the printer number and what you want to print.
-	request := api.NewPrintMsg(550517385, "Hello,Cloud Print.")
+	request := api.NewPrintMsg(100000000, "Hello,Cloud Print.")
 	// Necessary steps:
 	// GET GetSend or POST PostSend
 	// To invoke the interface you want to access through the Client object, you pass in the request object
